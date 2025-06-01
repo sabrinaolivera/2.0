@@ -1,0 +1,28 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color:burlywood;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+h1{
+    font-family: Rubik Dirt, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size: 50px;
+}   
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif cursive;
+    color: rgba(181, 79, 79, 0.945);
+    font-size: 30px;
+}
+h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif cursive;
+    color:wheat;
+    font-size: 20px;
+}
