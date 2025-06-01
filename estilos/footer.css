@@ -1,0 +1,46 @@
+.pie-pagina{
+    display: flex;
+    align-items: center;
+    background-color:burlywood;
+    color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.botones{
+    background-color: burlywood;
+    display: inline-flex;
+    padding: 0 25px;
+    margin-top: 15px;
+    justify-items: center;
+    gap: 20px;
+    list-style: none; 
+    
+}
+
+.texto{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+}
+a {
+    color: inherit; 
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+
+    transition: all 0.8s;
+}
+
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 15px 20px;}
